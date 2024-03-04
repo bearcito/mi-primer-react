@@ -40,7 +40,7 @@ class CardPerson extends Component {
     changeAge = (index) => {
         // this.setState({
         //     persons[index].age + 1
-        // })
+        // }) no funciono :c
         console.log(this.state.persons[index]);
         const updatepersons = [...this.state.persons]
         updatepersons[index].age++
